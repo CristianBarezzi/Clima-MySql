@@ -50,7 +50,7 @@ Para que este flow funcione, debes cumplir con los siguientes requisitos previos
 4. Para agregar el nodo MySql debemos ir a la pestaña "Manage palatte" menú derecho, e instalar node-red-node-mysql
 5. En el nodo function debemos agregar el siguiente codigo:
 
-msg.topic = "INSERT INTO clima (`nombre`, `temperatura`,`humedad`) VALUES ('ceci'," + global.get("tempAPI") + "," + global.get("humAPI") + ");"; return msg;
+msg.topic = "INSERT INTO clima (`nombre`, `temperatura`,`humedad`) VALUES ('cristian'," + global.get("tempAPI") + "," + global.get("humAPI") + ");"; return msg;
 
 ### Instrucciones para la creación de la Base de Datos
 1. Instalar MySql -> `sudo apt install mysql-server`
